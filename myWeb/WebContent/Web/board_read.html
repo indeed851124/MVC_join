@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/board_read.css" />
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>페이지의 전체구조</title>
+</head>
+<body>
+	<div id="warp">
+	<!--헤더파일 들어가는 곳-->
+	<header>
+	<div id="login"><a href="#">Login</a> | <a href="#">Join</a></div>
+				<div class="clear"></div>
+			<div id="logo">
+			<img src="images/logo.png" width="265" height="62" alt="Javaline Web"></div>
+			<nav id="top_menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Who is Tommy.Lee?</a></li>
+						<li><a href="#">Member</a></li>
+						<li><a href="#">Board</a></li>
+						<li><a href="#">Ajax Board</a></li>
+					</ul>
+				</nav>
+
+			</header>
+	<!--그림파일 들어가는 곳 없어도 되지만 한번 넣어보자-->
+	<div id="sub_img">
+	</div>
+	<!--왼쪽의 서브메뉴가 들어가는 곳-->
+	<nav id="sub_menu">
+		<ul>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Join Us</a>
+			<li><a href="#">Board</a>
+			<li><a href="#">Ajax Board</a>
+		</ul>
+	</nav>
+
+	<!--실제 내용 콘텐츠가 들어가는 곳-->
+<article id="contents">
+<h1>게시글 보기</h1>
+<div id="read_warp">
+			<span class="read_board"><h2>글번호</h2></span>
+			<span><h3>1</h3></span>
+			<span class="read_board"><h2>조회수</h2></span><span><h3>123</h3></span>
+			<span class="read_board"><h2>글제목</h2></span><span id="read_title"><h3>dd</h3></span>
+			
+			<span id="bd_text"><h4></h4></span>
+			<span class="read_board"><h2>첨부파일보기</h2></span><span id="file"><input type="text" size="35" readonly>
+												<input type="button" value="받기" class="btn"></span>
+												<div id="read_btn">
+												<input type="button" value="글수정" class="btn">
+						<input type="button" value="글삭제" class="btn">
+						<input type="button" value="글목록" class="btn"></div>
+	<div class="clear"></div>
+	
+</article>
+
+
+	
+	<div class="clear"></div>
+	<!-- 푸터가 들어가는 곳 -->
+	<footer>
+		<hr>
+		<div id="copy">
+		All contents copyright 2015 Tommy. Lee. all rights reserved<br>
+		Contact mail : stdio@hanmail.net Tel : 010-9531-0114
+		</div>
+		<div id="social">
+		<img src="images/facebook.gif" width="33" height="33" alt="Facdebook">
+		<img src="images/twitter.gif" width="33" height="34" alt="Twitter">
+		</div>
+	</footer>
+
+	</div><!--warp 끝나는 부분-->
+</body>
+</html>
+
+
